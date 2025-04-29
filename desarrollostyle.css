@@ -127,7 +127,7 @@ footer {
   margin-top: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 10px 1fr 10px; 
     grid-template-rows: auto;
