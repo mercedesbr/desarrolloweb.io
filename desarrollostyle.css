@@ -131,7 +131,6 @@ footer {
   .grid-container {
     grid-template-columns: 1fr; 
   }
-  
   .primero,
   .segundo,
   .tercero,
@@ -139,7 +138,6 @@ footer {
     grid-column: auto;
     grid-row: auto; 
   }
-  
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -148,31 +146,8 @@ footer {
   .content {
     padding: 15px;
   }
-  .hero {
-    padding: 10px;
-  }
-  .tabla-materias th, .tabla-materias td {
-    padding: 10px;
-    font-size: 14px;
-  }
-  #task-input {
-    width: 90%;
-  }
-  .menu {
-    padding: 15px;
-  }
-  .perfil {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .foto-perfil {
-    width: 80%;
-  }
+
   ul {
   padding-left: 20px;
-  }
-  .form-section {
-    padding: 50px;
   }
 }
