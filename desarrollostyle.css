@@ -136,7 +136,7 @@ footer {
   .segundo,
   .tercero,
   .cuarto {
-    grid-column: 2 / 3; 
+    grid-column: auto;
     grid-row: auto; 
   }
   
