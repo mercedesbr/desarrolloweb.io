@@ -1,0 +1,195 @@
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: hsl(0, 0%, 20%);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Cabecera */
+  header {
+    color: #6F5D44;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 5px;
+  }
+  
+  /* Menú */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #414240;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #E5BB89;
+  }
+  
+  a {
+    color: #6F5D44;
+  }
+
+  /* Listas*/
+  .ul-seleccionable, ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .ul-seleccionable li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  ul li {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  
+  .ul-seleccionable li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .curso {
+    color: #6F5D44;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* Contenedor principal */
+  .container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  /* Contenido */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Menú */
+  .menu {
+    text-align: center;
+    background-color: #CCC5B7;
+    color: #414240;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr 20px; /* Primera y última columna con margen */
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+    gap: 20px;
+  }
+  
+  .grid-container > div {
+    padding: 20px;
+    background-color: #CCC5B7;
+    border-radius: 10px;
+  }
+  
+  .primero {
+    grid-column: 2 / 3; 
+  }
+  
+  .segundo {
+    grid-column: 2 / 3;  /* Segundo grid desde la columna 2 */
+    grid-row: 2 / 3;  
+  } 
+  
+  .tercero {
+    grid-area: 1 / 3 / 3 / 6;
+  }
+  .cuarto {
+    grid-column: 1 / 7; 
+    text-align: center;
+    font-weight: bold;
+  }
+  /* Lista de tareas */
+  .actividades-title {
+    font-weight: bold;
+    color: #6F5D44;
+  }
+
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 10px 1fr 10px; 
+      grid-template-rows: auto;
+    }
+  
+    .primero,
+    .segundo,
+    .tercero,
+    .cuarto {
+      grid-column: 2 / 3; 
+      grid-row: auto; 
+    }
+    
+    .tercero {
+      grid-area: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .content {
+        padding: 15px;
+      }
+    
+    .hero {
+        padding: 10px;
+      }
+    
+    .tabla-materias th, .tabla-materias td {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    #task-input {
+        width: 90%;
+    }
+    
+    .menu {
+        padding: 15px;
+    }
+    .perfil {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+    .foto-perfil {
+        width: 80%; /* que no ocupe todo el ancho */
+    }
+    
+      ul {
+        padding-left: 20px;
+      }
+      .form-section {
+        padding: 50px 50px;
+      }
+  

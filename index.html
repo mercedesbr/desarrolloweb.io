@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Desarrollo Web - Informativa</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diseño y Desarrollo Web</title>
+   <link rel="stylesheet" href="desarrollostyle.css" />
 </head>
-<body>
-
-  <header>
-    <h1>Materia: Desarrollo Web</h1>
-    <p>Introducción al diseño y programación de sitios web</p>
-  </header>
-
-  <nav>
-    <a href="https://mercedesbr.github.io/dw.uva1.github.io/index.html">Home</a> |
-    <a href="https://mercedesbr.github.io/dw.uva1.github.io/materias.html">Materias 2025</a>
-  </nav>
-
-  <nav>
+  
+ <body>
     <div class="container">
-      <h1>Contenido</h1>
-      <ul>
-        <li><a href="#bibliografía">Bibliografía</a></li>
-        <li><a href="#fechas">Fechas de exámenes y Entregas</a></li>
-        <li><a href="#actividades">Actividades UVAs</a></li>
-      </ul>
+        <div class="content">
+            <header>
+                <h1>Diseño y Desarrollo Web</h1>
+            </header>
+            <section class="menu">
+                <nav>
+                    <a href="index.html">Home</a> |
+                    <a href="avisos.html">Avisos</a> |
+                    <a href="sobremi.html">Sobre mí</a> |
+                    <a href="materias.html">Materias 2025</a> |
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+             </section>
+             <div class="grid-container">
+                <div class="grid-item primero">
+                        <h2 class="actividades-title">Fechas de examenes</h2>
+                            <ul>
+                                <li><strong>Primer parcial:</strong>  29/04/2025</li>
+                                <li><strong>Segundo parcial:</strong> 24/06/2025</li>
+                                <li><strong>Final Adelantado / Recuperatorio:</strong>  08/07/2025</li>
+                                <li><strong>Final Regular:</strong>  21/07/2025</li>
+                            </ul>
+                </div>
+                <div class="grid-item segundo">
+                        <h2 class="actividades-title">Bibliografía</h2>
+                        <ul class="ul-seleccionable">
+                            <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571949/View"> Introducción al desarrollo web </a></li>
+                            <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571954/View"> Diseño de interfaz y experiencia de usuario </a></li>
+                        </ul>
+                </div>
+                <div class="grid-item tercero">
+                        <h2 class="actividades-title">Actividades UVAs</h2>
+                            <ul class="ul-seleccionable">
+                                <li> <a href="https://github.com/mercedesbr/sobremi.github.io">Repositorio HTML - Sobre Mi</a></li>
+                                <li> <a href="https://mercedesbr.github.io/sobremi.github.io/">Sobre Mi</a></li>
+                                <li> <a href="https://github.com/mercedesbr/desarrolloweb.io">Repositorio HTML - Etiquetas</a></li>
+                                <li> <a href="https://mercedesbr.github.io/desarrolloweb.io/">Etiquetas</a></li>
+                                <li> <a href="https://github.com/mercedesbr/dw.uva1.github.io">Repositorio HTML - Ejercicio Integrador UVA 1</a></li>
+                                <li> <a href="https://mercedesbr.github.io/dw.uva1.github.io/">Ejercicio Integrador UVA 1</a></li>
+                                <li> <a href="https://github.com/mercedesbr/formato.de.texto.github.io">Repositorio Formato de Texto</a></li>
+                                <li> <a href="https://mercedesbr.github.io/formato.de.texto.github.io/">Formato de Texto</a></li>
+                                <li> <a href="https://github.com/mercedesbr/formato.de.caja.github.io">Repositorio Formato de Cajas</a></li>
+                                <li> <a href="https://mercedesbr.github.io/formato.de.caja.github.io/">Formato de Cajas</a></li>
+                                <li> <a href="https://github.com/mercedesbr/tpobligatoriouva2.github.io">Repositorio Ejercicio Integrador UVA 2</a></li>
+                                <li> <a href="https://mercedesbr.github.io/tpobligatoriouva2.github.io/">Ejercicio Integrador UVA 2</a></li>
+
+                            </ul>
+                </div>
+                <div class="grid-item cuarto">
+                    <h3 class="curso"> Curso: 11842 -  Profesora: Patricia Litovicius</p>
+                </div>
+
+             </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 UADE - Cátedra de Desarrollo Web</p>
+        </footer>
     </div>
-  </nav>
-
-  <main>
-    <section id="bibliografía">
-        <h2>Bibliografía</h2>
-        <ul>
-          <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571949/View"> Introducción al desarrollo web </a></li>
-          <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571954/View"> Diseño de interfaz y experiencia de usuario </a></li>
-
-        </ul>
-    </section>
-
-    <section id="fechas">
-      <h2>Fechas de exámenes y Entregas</h2>
-      <ul>
-        <li><strong>Primer parcial:</strong>  29/04/2025</li>
-        <li><strong>Segundo parcial:</strong> 24/06/2025</li>
-        <li><strong>Final Adelantado / Recuperatorio:</strong>  08/07/2025</li>
-        <li><strong>Final Regular:</strong>  21/07/2025</li>
-      </ul>
-    </section>
-    <section id="actividades">
-      <h2>Actividades UVAs</h2>
-      <ul>
-        <li> <strong>UVA 1:</strong> <a href= "https://mercedesbr.github.io/sobremi.github.io/"> primer entrega - sobre mi</a> </li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>&copy; 2025 UADE - Cátedra de Desarrollo Web</p>
-  </footer>
-
 </body>
+
 </html>
