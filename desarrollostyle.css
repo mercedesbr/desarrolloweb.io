@@ -127,10 +127,9 @@ footer {
   margin-top: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .grid-container {
-    grid-template-columns: 10px 1fr 10px; 
-    grid-template-rows: auto;
+    grid-template-columns: 1fr; 
   }
   
   .primero,
@@ -140,9 +139,7 @@ footer {
     grid-column: 2 / 3; 
     grid-row: auto; 
   }
-  .tercero {
-    grid-area: auto;
-  }
+  
   nav ul {
     flex-direction: column;
     align-items: center;
